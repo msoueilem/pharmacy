@@ -23,7 +23,6 @@
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-scripts": "^4.0.3",
-        "sass-loader": "^13.0.0",
         "style-loader": "^3.3.1",
         "web-vitals": "^2.1.4"
     },
@@ -71,7 +70,7 @@
         "redux-persist": "^6.0.0",
         "redux-thunk": "^2.4.1",
         "rtlcss-webpack-plugin": "^4.0.7",
-        "sass": "^1.49.7",
+        "sass": "^1.83.0",
         "swiper": "^5.4.5",
         "use-sound": "^4.0.1"
     },

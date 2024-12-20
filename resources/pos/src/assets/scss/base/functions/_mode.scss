@@ -1,26 +1,26 @@
 // Get Mode
 //
 
+@use "sass:meta";
+
 @function getMode() {
-    @if (variable-exists(mode)) {
+    @if (meta.variable-exists(mode)) {
         @return $mode;
-    } @else {
-        @return default;
     }
+
+    @return null;
 }
 
 @function isDarkMode() {
-    @if (getMode() == dark) {
-        @return true;
-    } @else {
-        @return false;
-    }
+    @return getMode()=='dark';
 }
 
 @function isDefaultMode() {
-    @if (getMode() == default) {
+    @if (getMode()==default) {
         @return true;
-    } @else {
+    }
+
+    @else {
         @return false;
     }
 }
