@@ -13,3 +13,7 @@ yarn-error.log
 /.vscode
 composer.lock
 package-lock.json
+public/mix-manifest.json
+public/js/chunks
+*.woff
+yarn.lock
